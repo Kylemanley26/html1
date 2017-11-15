@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do you prefer cats or dogs, also gender realities</title>
+</head>
+<body>
+	<h1>Do you prefer cats or dogs?</h1>
+	<form>
+		<label for="dogs">Dogs:</label>
+			<input id="dogs" type="radio" name="petChoice" value="God-tier">
+		<label for="cats">Cats:</label>	<!-- value adds the output to the query string -->
+			<input id="cats" type="radio" name="petChoice" value="Shit"> 
+	<h2>Whats fav colour</h2>		
+		<select name="colour">
+			<option value="R">Red</option>
+			<option value="G">Green</option>
+			<option value="B">Blue</option>
+		</select>
+
+		<textarea rows="10" cols="10"></textarea>
+
+		<button>Go!</button>  <!-- if button is last on form, will work as submit input -->
+	</form>
+<!-- in this case, petChoice connects the radio buttons for single input, for/id connects each label to each input -->
+<!-- radio buttons are generally for single input, whereas checkbox is for multiple selections -->
+</body>
+</html>
